@@ -1,0 +1,36 @@
+.navbar {
+  padding: 30px;
+  background: #000;
+  display: flex;
+  align-items: center;
+
+  .left-menu {
+    flex-grow: 1;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  .left-menu,
+  .right-menu {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        margin: 10px;
+        color: rgb(211, 211, 211);
+        text-transform: uppercase;
+        border: none;
+        background: #000;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 5",
+      "img": "https://picsum.photos/237/237",
+      "price": 300,
+      "quantity": 5
+    },
+    {
+      "id": 2,
+      "name": "iPhone X",
+      "img": "https://picsum.photos/237/237",
+      "price": 900,
+      "quantity": 5
+    },
+    {
+      "id": 3,
+      "name": "iPhone 8",
+      "img": "https://picsum.photos/237/237",
+      "price": 500,
+      "quantity": 5
+    },
+    {
+      "id": 4,
+      "name": "Nokia 7",
+      "img": "https://picsum.photos/237/237",
+      "price": 300,
+      "quantity": 5
+    },
+    {
+      "id": 5,
+      "name": "Sony XS",
+      "img": "https://picsum.photos/237/237",
+      "price": 900,
+      "quantity": 5
+    },
+    {
+      "id": 6,
+      "name": "iPhone SE",
+      "img": "https://picsum.photos/237/237",
+      "price": 500,
+      "quantity": 5
+    }
+  ],
+  "cart": [
+    {
+      "auth": 3,
+      "products": [],
+      "id": 1
+    },
+    {
+      "auth": 0,
+      "products": [],
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "name": "Ninh",
+      "email": "ninh@gmail.com",
+      "permission": 0,
+      "password": "111111"
+    },
+    {
+      "id": 1,
+      "name": "Phong",
+      "email": "phong@gmail.com",
+      "permission": 1,
+      "password": "111111"
+    },
+    {
+      "name": "aaaaa",
+      "email": "aaaaa@gmail.com",
+      "password": "111111",
+      "permission": 1,
+      "id": 2
+    },
+    {
+      "email": "ninh22@gmail.com",
+      "name": "ninh22",
+      "password": "111111",
+      "permission": 1,
+      "id": 3
+    }
+  ],
+  "permission": [
+    {
+      "id": 0,
+      "permission_name": "admin",
+      "access": [
+        {
+          "products": true,
+          "users": true
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "permission_name": "client",
+      "access": [
+        {
+          "products": false,
+          "users": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "permission_name": "manager",
+      "access": [
+        {
+          "products": true,
+          "users": false
+        }
+      ]
+    }
+  ]
+}

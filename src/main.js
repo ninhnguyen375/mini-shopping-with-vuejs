@@ -16,7 +16,9 @@ import App from './App.vue';
 library.add([faShoppingCart, faTrashAlt]);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
-Axios.defaults.baseURL = 'http://localhost:3000';
+Axios.defaults.baseURL = process.env.NODE_ENV === 'production'
+  ? 'https://api-with-json-server.herokuapp.com/'
+  : 'http://localhost:3000';
 
 Vue.use(VeeValidate);
 Validator.extend('confirmed', (value, [otherValue]) => value === otherValue, {

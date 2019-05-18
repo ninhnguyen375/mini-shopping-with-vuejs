@@ -25,10 +25,6 @@
       </li>
     </ul>
     <div class="container text-center col-lg-6 mt-4">
-      <h6>
-        I started working with knowledge about VueJS nearing 0 and completed
-        the project within 15 hours. This is my first project with vuejs.
-      </h6>
       <h6>Thanks for visiting!</h6>
     </div>
   </div>
@@ -36,6 +32,6 @@
 
 <script>
 export default {
-  name: 'about',
+  name: "about"
 };
 </script>

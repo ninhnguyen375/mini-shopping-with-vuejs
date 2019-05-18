@@ -6,7 +6,7 @@
     <div class="container d-flex justify-content-center">
       <img src="/img/loading.svg" alt="loading">
     </div>
-    <h4 class="mt-4 text-center text-secondary">Waiting For Server Heroku to start.</h4>
+    <div class="mt-4 text-center text-secondary">Waiting For Server Heroku to start.</div>
   </div>
 </template>
 

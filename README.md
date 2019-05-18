@@ -32,6 +32,4 @@ yarn run serve
 - Fetching API with json-server (axios).
 - Style with Bootstrap 4.
 
-### I started working with knowledge about VueJS nearing 0 and completed the project within 15 hours. This is my first project with vuejs.
-
 ## Thanks for visiting!

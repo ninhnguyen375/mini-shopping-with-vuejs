@@ -1,5 +1,7 @@
 # Mini shopping with vuejs
 
+## Demo(https://traning-vue-skills.ninhnguyen375.now.sh/)
+
 ## Project setup
 
 ```
